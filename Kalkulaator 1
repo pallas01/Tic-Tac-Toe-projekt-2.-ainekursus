@@ -1,0 +1,5 @@
+a1 = float(input("Sisesta esimene nr:"))
+a2 = float(input ("Sisesta nr 2: "))
+result = int 
+result = a1 * a2 / 100
+print (result)

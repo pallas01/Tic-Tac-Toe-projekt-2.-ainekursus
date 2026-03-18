@@ -1,0 +1,6 @@
+nimi = "Georg" 
+print("Nimi: " + nimi) ; 
+vanus = 20
+print("Vanus: " + str(vanus))
+kaal = 80.8
+print("Kaal: " + str(kaal))

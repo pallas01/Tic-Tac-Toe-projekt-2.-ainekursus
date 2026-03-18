@@ -1,0 +1,6 @@
+nimi = ("kaisa")
+str(input("Mis su nimi on"))
+if input == ("kaisa")
+print("oled tudeng")
+else
+print("ei ole tudeng")
