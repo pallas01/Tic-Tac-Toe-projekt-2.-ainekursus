@@ -1,0 +1,8 @@
+###### UI proovib teha siis kuidagi nahhui
+
+import tkinter as tk
+from tkinter import messagebox
+root = tk.Tk()
+root.title("Tic Tac Toe")
+root.geometry("400x400")
+messagebox.showinfo("Mäng läbi", "Mäng läbi! Võitis mängija X")
