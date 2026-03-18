@@ -1,8 +1,26 @@
 ###### UI proovib teha siis kuidagi nahhui
 
 import tkinter as tk
-from tkinter import messagebox
 root = tk.Tk()
-root.title("Tic Tac Toe")
-root.geometry("400x400")
-messagebox.showinfo("Mäng läbi", "Mäng läbi! Võitis mängija X")
+root.geometry("400x600")
+root.configure(bg="purple") # root directoryga pilt taustaks
+bg_image = tk.PhotoImage(file="/Users/georgpallas/Python Projects/Projekt 2/images.png")
+frame = tk.Frame(root)
+frame.place(relx=0.5, rely=0.7, anchor="center")
+frame.configure(bg="black")
+
+
+
+buttons = []
+
+for row in range(3):
+    for col in range(3):
+        btn = tk.Button(frame, text="", font=("Verdana", 40), width=4, height=2)
+        btn.grid(row=row, column=col, padx=1, pady=1)
+        buttons.append(btn)
+
+root.mainloop()
+
+## messagebox choose x or o
+
+
