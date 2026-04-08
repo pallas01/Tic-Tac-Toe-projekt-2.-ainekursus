@@ -1,4 +1,4 @@
-###### UI proovib teha siis kuidagi nahhui
+###### UI proovib teha siis kuidagi 
 
 import tkinter as tk
 root = tk.Tk()
